@@ -46,7 +46,7 @@ After that, we should make sure scalability works, then implement the animations
    Earth:
 
    - Color changing - becomming sick _(SMIL animate)_
-   - Eyes moving
+   - Eyes moving _(SMIL animate)_
 
 3. Select classnames for elements to animate
 4. Download correct and simplify elements
