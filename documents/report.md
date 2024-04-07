@@ -85,24 +85,24 @@ left-person\_\_foot--right
 
 #### Middle person
 
-middle-person\_\_head
-middle-person\_\_eye--left
-middle-person\_\_flare--left-top
-middle-person\_\_flare--left-bottom
-middle-person\_\_eye--right
-middle-person\_\_flare--right-top
-middle-person\_\_flare--right-bottom
-middle-person\_\_arm--left
-middle-person\_\_arm--right
-middle-person\_\_hand--right
-middle-person\_\_phone
-middle-person\_\_phone--icon
-middle-person\_\_t-shirt
-middle-person\_\_skirt
-middle-person\_\_leg--left
-middle-person\_\_leg--right
-middle-person\_\_foot--left
-middle-person\_\_foot--right
+mid-person\_\_head
+mid-person\_\_eye--left
+mid-person\_\_flare--left-top
+mid-person\_\_flare--left-bottom
+mid-person\_\_eye--right
+mid-person\_\_flare--right-top
+mid-person\_\_flare--right-bottom
+mid-person\_\_arm--left
+mid-person\_\_arm--right
+mid-person\_\_hand--right
+mid-person\_\_phone
+mid-person\_\_phone--icon
+mid-person\_\_t-shirt
+mid-person\_\_skirt
+mid-person\_\_leg--left
+mid-person\_\_leg--right
+mid-person\_\_foot--left
+mid-person\_\_foot--right
 
 #### Right person
 

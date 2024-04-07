@@ -1,1 +1,24 @@
 // USE THIS FILE TO CREATE THE LAYOUT AND SPECIFIC RULES FOR SCREENSHOTS 1 and 2
+//Car styling
+.car {
+    &__wheel {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+        stroke-width: 4.206px;
+    }
+
+    &__wheel,
+    &__outline,
+    &__window {
+        fill: #231f20;
+    }
+
+    &__body {
+        fill: #c77161;
+    }
+
+    &__window,
+    &__body {
+        stroke-width: 0px;
+    }
+}
