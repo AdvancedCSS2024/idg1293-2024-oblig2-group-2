@@ -41,17 +41,17 @@ star--small
 
 ### Pollution
 
-particle--one
-particle--two
-particle--three
-particle--four
-particle--five
-particle--six
-particle--seven
-particle--eight
-particle--none
-particle--ten
-particle--eleven
+particle-one
+particle-two
+particle-three
+particle-four
+particle-five
+particle-six
+particle-seven
+particle-eight
+particle-none
+particle-ten
+particle-eleven
 
 ### Car
 
@@ -124,3 +124,7 @@ right-person\_\_leg--left
 right-person\_\_leg--right
 right-person\_\_foot--left
 right-person\_\_foot--right
+
+## Working on the project
+
+While fixing the svg's we saw some issues and potential problems with the aproach we planned, so we had to adjust some things. Some of the classnames were changed to be more suitable.
