@@ -25,13 +25,52 @@
     }
 }
 
+.main {
+    position: relative;
+}
+
+.moon-stars__container {
+    position: absolute;
+    right: 0;
+    top: 11%;
+    display: inline-block;
+    width: 40%;
+}
+
+.moon__svg {
+    position: absolute;
+    top: 0%;
+    left: 12%;
+    width: 74%;
+    aspect-ratio: 506 / 461;
+}
+
 .star {
+    stroke: #231F20;
+    stroke-width: 4.60167;
+    stroke-miterlimit: 10;
+
+    &--small {
+        fill: #F5EC43;
+    }
+
+    &s__svg {
+        position: absolute;
+        height: calc(100% - 2px);
+        width: 100%;
+        top: 2%;
+
+    }
 
     &__container {
+        width: 27%;
+        aspect-ratio: 31 / 40.8;
+        //height: 246px;
         margin-left: 1px;
+        right: 14%;
         display: inline-block;
-        border: solid red 5px;
-        position: relative;
+        //border: solid red 5px;
+        position: absolute;
     }
 
     &__drawing-container {
@@ -40,35 +79,16 @@
             height: 49%;
             width: 60.5%;
             left: 0.7%;
-            top: 0%;
-            outline: solid green 5px;
-            z-index: 2;
-            perspective: 500px;
-        }
-
-        &--small {
-            position: absolute;
-            height: 34%;
-            width: 45%;
-            bottom: 1.45%;
-            right: 0%;
-            outline: solid blue 5px;
-            z-index: 2;
+            top: 2%;
         }
     }
 
     &__part {
 
         &--large {
-            opacity: 0.6;
             position: absolute;
             transform: translate(-50%, -50%);
-        }
-
-        &--small {
-            opacity: 0.6;
-            position: absolute;
-            transform: translate(-50%, -50%);
+            background-color: #F5EC43;
         }
     }
 
@@ -80,43 +100,172 @@
             width: 47%;
             height: 50%;
             rotate: 50deg;
-            //background-color: #F5EC43;
-            background-color: red;
 
         }
-
-        &--left {}
-
-        &--bottom {}
-
-        &--bottom-right {}
-
-        &--right {}
 
         &--top {
-            transform: rotateY(30deg);
-            height: 10%;
-            width: 10%;
-            background-color: green;
-            top: 1%;
-            left: 40%;
-            rotate: -25deg;
-            transform: translate(-50%, 0%);
+            display: block;
+            width: 26.1%;
+            height: 51%;
+            border-radius: 60% 60% 0% 0% / 70% 70% 40% 40%;
+            top: 21.4%;
+            left: 53.8%;
+            rotate: -19.5deg;
+
+            &::after {
+                background-color: #F5EC43;
+                content: "";
+                display: block;
+                width: 54%;
+                height: 55%;
+                border-radius: 60% 60% 0% 0% / 70% 70% 40% 40%;
+                top: 11%;
+                left: calc(44% + 1.2px);
+                rotate: -12deg;
+                position: absolute;
+            }
+
+            &-two {
+                display: block;
+                width: 15%;
+                height: 26%;
+                border-radius: 45% 45% 50% 50% / 70% 70% 40% 40%;
+                top: 20%;
+                left: 39%;
+                rotate: -8deg;
+                z-index: 2;
+            }
+
+            &-three {
+                display: block;
+                width: 20%;
+                height: 26%;
+                border-bottom: solid #F5EC43 0.5vw;
+                border-left: solid transparent 0.5vw;
+                border-right: solid transparent 0.5vw;
+                background-color: transparent;
+                border-radius: 50% 50% 50% 50% / 50% 50% 40% 40%;
+                top: 3%;
+                left: 24%;
+                rotate: -77deg;
+            }
+        }
+
+        &--left {
+            display: block;
+            width: 27%;
+            height: 50%;
+            border-radius: 60% 60% 0% 0% / 70% 70% 40% 40%;
+            top: 8%;
+            left: 37%;
+            rotate: -110deg;
+
+            &::after {
+                background-color: #F5EC43;
+                content: "";
+                display: block;
+                width: 56%;
+                height: 55%;
+                border-radius: 60% 60% 0% 0% / 70% 70% 40% 40%;
+                top: 11%;
+                left: 49%;
+                rotate: -12deg;
+                position: absolute;
+            }
+        }
+
+        &--bottom {
+            display: block;
+            width: 28%;
+            height: 50%;
+            border-radius: 60% 60% 0% 0% / 70% 70% 40% 40%;
+            top: 19%;
+            left: 24%;
+            rotate: -168deg;
+
+            &::after {
+                background-color: #F5EC43;
+                content: "";
+                display: block;
+                width: 54%;
+                height: 55%;
+                border-radius: 60% 60% 0% 0% / 70% 70% 40% 40%;
+                top: 11%;
+                left: 43%;
+                rotate: -15deg;
+                position: absolute;
+            }
+        }
+
+        &--bottom-right {
+            display: block;
+            width: 28%;
+            height: 50%;
+            border-radius: 60% 60% 0% 0% / 70% 70% 40% 40%;
+            top: 25%;
+            left: 29%;
+            rotate: 131deg;
+
+            &::after {
+                background-color: #F5EC43;
+                content: "";
+                display: block;
+                width: 54%;
+                height: 55%;
+                border-radius: 60% 60% 0% 0% / 70% 70% 40% 40%;
+                top: 11%;
+                left: 43%;
+                rotate: -30deg;
+                position: absolute;
+
+            }
+        }
+
+        &--right {
+            display: block;
+            width: 28%;
+            height: 50%;
+            border-radius: 60% 60% 0% 0% / 70% 70% 40% 40%;
+            top: 38%;
+            left: 45%;
+            rotate: 53deg;
+
+            &::after {
+                background-color: #F5EC43;
+                content: "";
+                display: block;
+                width: 54%;
+                height: 55%;
+                border-radius: 60% 60% 0% 0% / 70% 70% 40% 40%;
+                top: 11%;
+                left: 43%;
+                rotate: -30deg;
+                position: absolute;
+            }
+
+            &::before {
+                background-color: #F5EC43;
+                content: "";
+                display: block;
+                width: 54%;
+                height: 30%;
+                border-radius: 60% 60% 0% 0% / 70% 70% 40% 40%;
+                top: 40%;
+                left: -9%;
+                rotate: 30deg;
+                position: absolute;
+            }
         }
     }
+}
 
-    &__small {
-        &--center {}
+@media screen and (max-width: 580px) {
 
-        &--left {}
-
-        &--bottom {}
-
-        &--bottom-right {}
-
-        &--right {}
-
-        &--top {}
+    .star--large {
+        fill: #F5EC43;
     }
 
+    .star__drawing-container--large {
+        display: none;
+    }
 }
