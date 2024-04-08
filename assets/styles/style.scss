@@ -26,6 +26,8 @@
 }
 
 .main {
+    border: solid red 1px;
+    display: inline-block;
     position: relative;
 }
 
@@ -45,6 +47,8 @@
     aspect-ratio: 506 / 461;
 }
 
+
+//styling for stars
 .star {
     stroke: #231F20;
     stroke-width: 4.60167;
@@ -62,6 +66,7 @@
 
     }
 
+
     &__container {
         width: 27%;
         aspect-ratio: 31 / 40.8;
@@ -73,6 +78,7 @@
         position: absolute;
     }
 
+    //css star-drawing below
     &__drawing-container {
         &--large {
             position: absolute;
@@ -133,7 +139,6 @@
                 top: 20%;
                 left: 39%;
                 rotate: -8deg;
-                z-index: 2;
             }
 
             &-three {
@@ -259,6 +264,8 @@
     }
 }
 
+
+//added since when lower amount of pixels occur, it skips pixels and causes issues. 
 @media screen and (max-width: 580px) {
 
     .star--large {
@@ -268,4 +275,95 @@
     .star__drawing-container--large {
         display: none;
     }
+}
+
+.background {
+    outline: solid green 1px;
+}
+
+//background banners:
+.background__banner--svg {
+    left: 0;
+    width: 100%;
+    //position: absolute;
+    display: block;
+    padding: 0;
+    margin-top: 0;
+}
+
+.background__banner--pink {
+    fill: #EAC9C4
+}
+
+.background__banner--lightblue {
+    fill: #DAF1F7;
+}
+
+.background__banner--blue {
+    fill: #005BA7;
+}
+
+.background__banner--white {
+    fill: white;
+}
+
+
+
+.earth__svg {
+    //position: absolute;
+    width: 100%;
+    z-index: 1;
+    margin: 0;
+    margin-top: -34.8%;
+}
+
+.earth__water {
+    fill: #00B1DC;
+    stroke: #231F20;
+    stroke-width: 4.60063;
+    stroke-miterlimit: 10;
+}
+
+.earth__eye--right {
+    fill: #0A0203;
+}
+
+.earth__flare--right {
+    fill: white;
+}
+
+.earth__eye--left {
+    fill: #0A0203
+}
+
+.earth__flare--right_2 {
+    fill: white;
+}
+
+.earth__continent--center {
+    fill: #A1CF6D;
+    stroke: #231F20;
+    stroke-width: 4.60063;
+    stroke-miterlimit: 10;
+}
+
+.earth__continent--right {
+    fill: #A1CF6D;
+    stroke: #231F20;
+    stroke-width: 4.60063;
+    stroke-miterlimit: 10;
+}
+
+.earth__continent--top {
+    fill: #A1CF6D;
+    stroke: #231F20;
+    stroke-width: 4.60063;
+    stroke-miterlimit: 10;
+}
+
+.continent--left {
+    fill: #A1CF6D;
+    stroke: #231F20;
+    stroke-width: 4.60063;
+    stroke-miterlimit: 10;
 }
