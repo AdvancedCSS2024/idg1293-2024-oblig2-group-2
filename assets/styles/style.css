@@ -1,16 +1,84 @@
-.car__wheel {
-  stroke: #231f20;
-  stroke-miterlimit: 10;
-  stroke-width: 4.206px;
-}
-.car__wheel, .car__outline, .car__window {
-  fill: #231f20;
-}
 .car__body {
-  fill: #c77161;
+  fill: #C77161;
 }
-.car__window, .car__body {
-  stroke-width: 0px;
+.car__outline {
+  fill: #231F20;
+}
+.car__window {
+  fill: #231F20;
+}
+.car__wheel--front, .car__wheel--rear {
+  fill: #231F20;
+  stroke: #231F20;
+  stroke-width: 4.206;
+  stroke-miterlimit: 10;
+}
+
+.background__banner--pink {
+  fill: #EAC9C4;
+}
+
+.background__banner--lightblue {
+  fill: #DAF1F7;
+}
+
+.background__banner--blue {
+  fill: #005BA7;
+}
+
+.background__banner--white {
+  fill: white;
+}
+
+.earth__water {
+  fill: #00B1DC;
+  stroke: #231F20;
+  stroke-width: 4.60063;
+  stroke-miterlimit: 10;
+}
+
+.earth__eye--right {
+  fill: #0A0203;
+}
+
+.earth__flare--right {
+  fill: white;
+}
+
+.earth__eye--left {
+  fill: #0A0203;
+}
+
+.earth__flare--right_2 {
+  fill: white;
+}
+
+.earth__continent--center {
+  fill: #A1CF6D;
+  stroke: #231F20;
+  stroke-width: 4.60063;
+  stroke-miterlimit: 10;
+}
+
+.earth__continent--right {
+  fill: #A1CF6D;
+  stroke: #231F20;
+  stroke-width: 4.60063;
+  stroke-miterlimit: 10;
+}
+
+.earth__continent--top {
+  fill: #A1CF6D;
+  stroke: #231F20;
+  stroke-width: 4.60063;
+  stroke-miterlimit: 10;
+}
+
+.continent--left {
+  fill: #A1CF6D;
+  stroke: #231F20;
+  stroke-width: 4.60063;
+  stroke-miterlimit: 10;
 }
 
 .background__banner--pink {
