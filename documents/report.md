@@ -16,6 +16,50 @@ And then style things in CSS (transfer the styling from HTML to CSS).
 
 After that, we should make sure scalability works, then implement the animations.
 
+## Process
+
+1. Decide poster
+2. Select elements and which animations:
+   Goal-list of animations we hope to achieve below. Not all have to be achieved. Ment as guide for what/how to animate and make sure all variations are used.
+
+   Moon: Wobbling _(css keyframes)_, mouth moving _(SMIL transform)_
+
+   Stars: Rotating back and forths while shrinking/growing _(css keyframes)_
+
+   Car: Left to right _(SMIL path animation)_ in wavy motion - rotating _(CSS keyframes)_
+
+   pollution:
+
+   - Particles:
+     - Shrink and grow from 0% - 100% - 0% _(css keyframes)_
+     - Some rotate back and forth _(CSS keyframes)_
+     - Moving upwards _(SMIL Path)_
+     - Eyebrows moving _(SMIL animate)_
+     - Mouths moving _(SMIL transform)_
+     - changing color nuance _(SMIL animate)_
+
+   People:
+
+   - Waving/moving with arms _(SMIL transform)_
+   - Mouth moving _(SMIL transform)_
+
+   Earth:
+
+   - Color changing - becomming sick _(SMIL animate)_
+   - Eyes moving _(SMIL animate)_
+
+3. Select classnames for elements to animate
+4. Download correct and simplify elements
+5. Extract from PDF
+6. Import SVG to html and implement classnames
+7. Styling in SCSS
+   - Decide units to use
+8. Design poster
+   - Match with original
+9. Fix scalability
+10. Add animations
+11. Check and correct animations regarding scalability
+
 ## Classnames(options):
 
 ### Moon and moon-elements:
@@ -41,17 +85,17 @@ star--small
 
 ### Pollution
 
-particle--one
-particle--two
-particle--three
-particle--four
-particle--five
-particle--six
-particle--seven
-particle--eight
-particle--none
-particle--ten
-particle--eleven
+particle-one
+particle-two
+particle-three
+particle-four
+particle-five
+particle-six
+particle-seven
+particle-eight
+particle-none
+particle-ten
+particle-eleven
 
 ### Car
 
@@ -85,24 +129,24 @@ left-person\_\_foot--right
 
 #### Middle person
 
-middle-person\_\_head
-middle-person\_\_eye--left
-middle-person\_\_flare--left-top
-middle-person\_\_flare--left-bottom
-middle-person\_\_eye--right
-middle-person\_\_flare--right-top
-middle-person\_\_flare--right-bottom
-middle-person\_\_arm--left
-middle-person\_\_arm--right
-middle-person\_\_hand--right
-middle-person\_\_phone
-middle-person\_\_phone--icon
-middle-person\_\_t-shirt
-middle-person\_\_skirt
-middle-person\_\_leg--left
-middle-person\_\_leg--right
-middle-person\_\_foot--left
-middle-person\_\_foot--right
+mid-person\_\_head
+mid-person\_\_eye--left
+mid-person\_\_flare--left-top
+mid-person\_\_flare--left-bottom
+mid-person\_\_eye--right
+mid-person\_\_flare--right-top
+mid-person\_\_flare--right-bottom
+mid-person\_\_arm--left
+mid-person\_\_arm--right
+mid-person\_\_hand--right
+mid-person\_\_phone
+mid-person\_\_phone--icon
+mid-person\_\_t-shirt
+mid-person\_\_skirt
+mid-person\_\_leg--left
+mid-person\_\_leg--right
+mid-person\_\_foot--left
+mid-person\_\_foot--right
 
 #### Right person
 
@@ -124,3 +168,7 @@ right-person\_\_leg--left
 right-person\_\_leg--right
 right-person\_\_foot--left
 right-person\_\_foot--right
+
+## Working on the project
+
+While fixing the svg's we saw some issues and potential problems with the aproach we planned, so we had to adjust some things. Some of the classnames were changed to be more suitable. We also saw that more/other animations were relevant, so we included that in our tasks.
