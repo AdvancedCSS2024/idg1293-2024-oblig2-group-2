@@ -1,14 +1,70 @@
-.car__wheel {
-  stroke: #231f20;
-  stroke-miterlimit: 10;
-  stroke-width: 4.206px;
-}
-.car__wheel, .car__outline, .car__window {
-  fill: #231f20;
-}
 .car__body {
-  fill: #c77161;
+  fill: #C77161;
 }
-.car__window, .car__body {
-  stroke-width: 0px;
+.car__outline {
+  fill: #231F20;
+}
+.car__window {
+  fill: #231F20;
+}
+.car__wheel--front, .car__wheel--rear {
+  fill: #231F20;
+  stroke: #231F20;
+  stroke-width: 4.206;
+  stroke-miterlimit: 10;
+}
+
+.star__container {
+  margin-left: 1px;
+  display: inline-block;
+  border: solid red 5px;
+  position: relative;
+}
+.star__drawing-container--large {
+  position: absolute;
+  height: 49%;
+  width: 60.5%;
+  left: 0.7%;
+  top: 0%;
+  outline: solid green 5px;
+  z-index: 2;
+  perspective: 500px;
+}
+.star__drawing-container--small {
+  position: absolute;
+  height: 34%;
+  width: 45%;
+  bottom: 1.45%;
+  right: 0%;
+  outline: solid blue 5px;
+  z-index: 2;
+}
+.star__part--large {
+  opacity: 0.6;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.star__part--small {
+  opacity: 0.6;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.star__large--center {
+  top: 58%;
+  left: 22%;
+  border-radius: 40% 15% 0% 0%;
+  width: 47%;
+  height: 50%;
+  rotate: 50deg;
+  background-color: red;
+}
+.star__large--top {
+  transform: rotateY(30deg);
+  height: 10%;
+  width: 10%;
+  background-color: green;
+  top: 1%;
+  left: 40%;
+  rotate: -25deg;
+  transform: translate(-50%, 0%);
 }/*# sourceMappingURL=style.css.map */
