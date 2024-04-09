@@ -559,4 +559,41 @@
   stroke: #231F20;
   stroke-width: 4.60063;
   stroke-miterlimit: 10;
+}
+
+.title__container {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 13.1vw;
+  left: 20vw;
+}
+.title__headline {
+  line-height: 4.45vw;
+  font-size: 4.05vw;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  color: #005BA7;
+}
+.title__headline--green {
+  color: #0FA15C;
+}
+.title__tagline {
+  margin: 0;
+  margin-top: 1.9vw;
+  line-height: 2.3vw;
+  font-size: 2.03vw;
+  font-family: "Marydale Regular";
+}
+
+.paragraph__tiktok {
+  position: absolute;
+  font-family: "Marydale Regular";
+  transform: translate(-50%, -50%);
+  top: 30.8vw;
+  line-height: 3vw;
+  left: 26.5vw;
+  color: white;
+  font-size: 2.5vw;
 }/*# sourceMappingURL=style.css.map */
