@@ -1,0 +1,247 @@
+.background__banner--svg {
+  opacity: 50%;
+  left: 0;
+  width: 100%;
+  display: block;
+  padding: 0;
+  margin-top: 0;
+}
+.background__banner--pink {
+  fill: #EAC9C4;
+}
+.background__banner--lightblue {
+  fill: #DAF1F7;
+}
+.background__banner--blue {
+  fill: #005BA7;
+}
+.background__banner--white {
+  fill: white;
+}
+.backgroundearth__svg {
+  width: 100%;
+  z-index: 1;
+  margin: 0;
+  margin-top: -34.8%;
+}
+.backgroundearth__water {
+  fill: #00B1DC;
+  stroke: #231F20;
+  stroke-width: 4.60063;
+  stroke-miterlimit: 10;
+}
+.backgroundearth__eye--right {
+  fill: #0A0203;
+}
+.backgroundearth__eye--left {
+  fill: #0A0203;
+}
+.backgroundearth__flare--right {
+  fill: white;
+}
+.backgroundearth__flare--right_2 {
+  fill: white;
+}
+.backgroundearth__continent--center {
+  fill: #A1CF6D;
+  stroke: #231F20;
+  stroke-width: 4.60063;
+  stroke-miterlimit: 10;
+}
+.backgroundearth__continent--right {
+  fill: #A1CF6D;
+  stroke: #231F20;
+  stroke-width: 4.60063;
+  stroke-miterlimit: 10;
+}
+.backgroundearth__continent--top {
+  fill: #A1CF6D;
+  stroke: #231F20;
+  stroke-width: 4.60063;
+  stroke-miterlimit: 10;
+}
+.backgroundearth__continent--left {
+  fill: #A1CF6D;
+  stroke: #231F20;
+  stroke-width: 4.60063;
+  stroke-miterlimit: 10;
+}
+
+.people__containerleft-person__svg {
+  fill: none;
+}
+.people__containerleft-person__svg__group__bodyleg--right .people__containerleft-person__svg__group__bodyleg--right {
+  fill: #231F20;
+}
+.people__containerleft-person__svg__group__body--shorts {
+  fill: #A1CF6D;
+  stroke: #231F20;
+  stroke-width: 4.602;
+  stroke-miterlimit: 10;
+}
+.people__containerleft-person__svg__group__body--t-shirt {
+  fill: #F5EC43;
+  stroke: #231F20;
+  stroke-width: 4.60167;
+  stroke-miterlimit: 10;
+}
+.people__containerleft-person__svg__group__body__foot--left .people__containerleft-person__svg__group__body__foot--right {
+  fill: #231F20;
+}
+.people__containerleft-person__svg__group__body__hand--left {
+  fill: #AD9282;
+  stroke: #231F20;
+  stroke-width: 4.60167;
+  stroke-miterlimit: 10;
+}
+.people__containerleft-person__svg__group__body__arm--right .people__containerleft-person__svg__group__body__arm--left {
+  fill: #231F20;
+}
+.people__containerleft-person__svg__group__head--wrapperhead--fill {
+  fill: #B6A69E;
+  stroke: #231F20;
+  stroke-width: 4.60167;
+  stroke-miterlimit: 10;
+}
+.people__containerleft-person__svg__group__head--wrapperhead--right-eye {
+  fill: #231F20;
+  stroke: #231F20;
+  stroke-width: 4.60167;
+  stroke-miterlimit: 10;
+}
+.people__containerleft-person__svg__group__head--wrapperhead--left-eye {
+  fill: #231F20;
+}
+.people__containerleft-person__svg__group__head--wrappereye--flare .people__containerleft-person__svg__group__head--wrappereye--flare_2 .people__containerleft-person__svg__group__head--wrappereye--flare_3 .people__containerleft-person__svg__group__head--wrappereye--flare_4 {
+  fill: white;
+}
+.people__containerleft-person__svg__group__head--wrappermouth {
+  fill: #231F20;
+}
+.people__containerleft-person__svg__groupphone__phone {
+  fill: #231F20;
+  stroke: #231F20;
+  stroke-width: 2.5;
+}
+.people__containerleft-person__svg__groupphone__phone--icon {
+  stroke: white;
+  stroke-width: 4.60167;
+  stroke-miterlimit: 10;
+}
+.people__containermid-person__svg {
+  fill: none;
+}
+.people__containermid-person__svg__group__body__leg--right .people__containermid-person__svg__group__body__foot--right .people__containermid-person__svg__group__body__leg--left .people__containermid-person__svg__group__body__foot--left {
+  fill: #231F20;
+}
+.people__containermid-person__svg__group__body__hand--right {
+  fill: #FCE0CE;
+  stroke: #231F20;
+  stroke-width: 4.60167;
+  stroke-miterlimit: 10;
+}
+.people__containermid-person__svg__group__body__skirt {
+  fill: #C77161;
+  stroke: #231F20;
+  stroke-width: 5;
+}
+.people__containermid-person__svg__group__body__arm--right .people__containermid-person__svg__group__body__arm--left {
+  fill: #231F20;
+}
+.people__containermid-person__svg__group__body__t-shirt {
+  fill: #00B1DC;
+  stroke: #231F20;
+  stroke-width: 5;
+}
+.people__containermid-person__svg__group__head--container__head {
+  fill: #FCE0CE;
+  stroke: #231F20;
+  stroke-width: 4.60167;
+  stroke-miterlimit: 10;
+}
+.people__containermid-person__svg__group__head--container__eye {
+  fill: #231F20;
+}
+.people__containermid-person__svg__group__head--container__eye--flare .people__containermid-person__svg__group__head--container__eye--flare_2 .people__containermid-person__svg__group__head--container__eye--flare_3 .people__containermid-person__svg__group__head--container__eye--flare_4 {
+  fill: white;
+}
+.people__containermid-person__svg__group__head--container__eye_2 {
+  fill: #231F20;
+  stroke: #231F20;
+  stroke-width: 4.60167;
+  stroke-miterlimit: 10;
+}
+.people__containermid-person__svg__group__head--container__mouth {
+  fill: #231F20;
+}
+.people__containermid-person__svg__groupphone__phone {
+  fill: #231F20;
+  stroke: #231F20;
+  stroke-width: 4.9;
+}
+.people__containermid-person__svg__groupphone__phone--icon {
+  stroke: white;
+  stroke-width: 4.60167;
+  stroke-miterlimit: 10;
+}
+.people__containerright-person__svg {
+  fill: none;
+}
+.people__containerright-person__svg__group__body__hand--right {
+  fill: #816C5D;
+  stroke: #231F20;
+  stroke-width: 4.60167;
+  stroke-miterlimit: 10;
+}
+.people__containerright-person__svg__group__body__foot--left .people__containerright-person__svg__group__body__foot--right {
+  fill: #231F20;
+}
+.people__containerright-person__svg__group__body__shorts {
+  fill: #F5EC43;
+  stroke: #231F20;
+  stroke-width: 4.60167;
+  stroke-miterlimit: 10;
+}
+.people__containerright-person__svg__group__body__arm--left .people__containerright-person__svg__group__body__arm--right {
+  fill: #231F20;
+}
+.people__containerright-person__svg__group__body__t-shirt {
+  fill: #A1CF6D;
+  stroke: #231F20;
+  stroke-width: 4.602;
+  stroke-miterlimit: 10;
+}
+.people__containerright-person__svg__group__body__leg--left .people__containerright-person__svg__group__body__leg--right {
+  fill: #231F20;
+}
+.people__containerright-person__svg__group__phone--container {
+  fill: #0A0203;
+  stroke: #231F20;
+  stroke-width: 4.9;
+}
+.people__containerright-person__svg__group__phone--containerphone--icon {
+  stroke: white;
+  stroke-width: 4.60167;
+  stroke-miterlimit: 10;
+}
+.people__containerright-person__svg__group__head--container__head {
+  fill: #816C5D;
+  stroke: #231F20;
+  stroke-width: 4.60167;
+  stroke-miterlimit: 10;
+}
+.people__containerright-person__svg__group__head--container__eye--left {
+  fill: #231F20;
+  stroke: #231F20;
+  stroke-width: 4.60167;
+  stroke-miterlimit: 10;
+}
+.people__containerright-person__svg__group__head--container__eye--right {
+  fill: #231F20;
+}
+.people__containerright-person__svg__group__head--container__eye--flare .people__containerright-person__svg__group__head--container__eye--flare_2 .people__containerright-person__svg__group__head--container__eye--flare_3 .people__containerright-person__svg__group__head--container__eye--flare_4 {
+  fill: white;
+}
+.people__containerright-person__svg__group__head--container__mouth {
+  fill: #231F20;
+}/*# sourceMappingURL=second.css.map */
