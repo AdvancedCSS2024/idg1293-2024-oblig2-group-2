@@ -281,4 +281,32 @@
   stroke: #231F20;
   stroke-width: 4.206;
   stroke-miterlimit: 10;
+}
+
+.moon-stars__containermoon__group__body {
+  fill: #EAEAE9;
+  stroke: #231F20;
+  stroke-width: 4.206;
+  stroke-miterlimit: 10;
+}
+.moon-stars__containermoon__group__eye {
+  fill: #231F20;
+  stroke: #231F20;
+  stroke-width: 4.60167;
+  stroke-miterlimit: 10;
+}
+.moon-stars__containermoon__group__eye--flare .moon-stars__containermoon__group__eye--flare_2 .moon-stars__containermoon__group__eye--flare_3 .moon-stars__containermoon__group__eye--flare_4 {
+  fill: white;
+}
+.moon-stars__containermoon__group__eye_2 {
+  fill: #231F20;
+}
+.moon-stars__containermoon__group__mouth {
+  fill: #231F20;
+}
+.moon-stars__containermoon__group__crater--bottomright .moon-stars__containermoon__group__crater--left .moon-stars__containermoon__group__crater--top .moon-stars__containermoon__group__crater--bottomleft .moon-stars__containermoon__group__crater--right {
+  fill: #B4B6B7;
+  stroke: #231F20;
+  stroke-width: 4.60167;
+  stroke-miterlimit: 10;
 }/*# sourceMappingURL=second.css.map */

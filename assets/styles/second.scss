@@ -396,7 +396,54 @@
                 stroke-width: 4.206;
                 stroke-miterlimit: 10;
             }
+
+
         }
     }
 }
 
+.moon-stars__container {
+
+    &moon__group {
+        &__body {
+            fill: #EAEAE9;
+            stroke: #231F20;
+            stroke-width: 4.206;
+            stroke-miterlimit: 10;
+        }
+        &__eye {
+            fill: #231F20;
+            stroke: #231F20;
+            stroke-width: 4.60167;
+            stroke-miterlimit: 10;
+
+            &--flare
+            &--flare_2
+            &--flare_3
+            &--flare_4 {
+                fill: white;
+            }
+        }
+        &__eye_2 {
+            fill: #231F20;
+        }
+
+        &__mouth {
+            fill: #231F20;
+        }
+
+        &__crater {
+            &--bottomright
+            &--left
+            &--top
+            &--bottomleft
+            &--right {
+                fill: #B4B6B7;
+                stroke: #231F20;
+                stroke-width: 4.60167;
+                stroke-miterlimit: 10;
+            }
+
+        }
+    }
+}
