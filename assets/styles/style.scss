@@ -3,6 +3,7 @@
 //giving body background-color grey to differentiate poster "white" from body
 .body {
     background-color: rgb(159, 159, 159);
+    font-family: "Marydale Regular";
 }
 
 //car styling
@@ -69,7 +70,6 @@
 
 
         &--text {
-            font-family: "Marydale Regular";
             color: black;
             font-weight: bold;
             margin: 0;
@@ -210,7 +210,6 @@
     }
 
     &__download {
-        font-family: "Marydale Regular";
         position: absolute;
         transform: translate(-50%, -50%);
         left: 52.9%;
@@ -235,7 +234,6 @@
     }
 
     &__contact {
-        font-family: "Marydale Regular";
         position: absolute;
         transform: translate(-50%, -50%);
         left: 85.55%;
@@ -586,63 +584,45 @@
 
 }
 
-.earth__svg {
-    //position: absolute;
-    width: 100%;
-    z-index: 1;
-    margin: 0;
-    margin-top: -34.8%;
-}
 
-.earth__water {
-    fill: #00B1DC;
-    stroke: #231F20;
-    stroke-width: 4.60063;
-    stroke-miterlimit: 10;
-}
+.earth {
+    &__svg {
+        width: 100%;
+        z-index: 1;
+        margin: 0;
+        margin-top: -34.8%;
+    }
 
-.earth__eye--right {
-    fill: #0A0203;
-}
+    &__water {
+        fill: #00B1DC;
+        stroke: #231F20;
+        stroke-width: 4.60063;
+        stroke-miterlimit: 10;
+    }
 
-.earth__flare--right {
-    fill: white;
-}
+    &__eye--right,
+    &__eye--left {
+        fill: #0A0203;
 
-.earth__eye--left {
-    fill: #0A0203
-}
+    }
 
-.earth__flare--right_2 {
-    fill: white;
-}
+    &__flare--right,
+    &__flare--left {
+        fill: white;
+    }
 
-.earth__continent--center {
-    fill: #A1CF6D;
-    stroke: #231F20;
-    stroke-width: 4.60063;
-    stroke-miterlimit: 10;
-}
+    &__continent {
 
-.earth__continent--right {
-    fill: #A1CF6D;
-    stroke: #231F20;
-    stroke-width: 4.60063;
-    stroke-miterlimit: 10;
-}
-
-.earth__continent--top {
-    fill: #A1CF6D;
-    stroke: #231F20;
-    stroke-width: 4.60063;
-    stroke-miterlimit: 10;
-}
-
-.continent--left {
-    fill: #A1CF6D;
-    stroke: #231F20;
-    stroke-width: 4.60063;
-    stroke-miterlimit: 10;
+        &--right,
+        &--center,
+        &--top,
+        &--left {
+            fill: #A1CF6D;
+            stroke: #231F20;
+            stroke-width: 4.60063;
+            stroke-miterlimit: 10;
+        }
+    }
 }
 
 .title {
@@ -668,23 +648,202 @@
     }
 
     &__tagline {
+        font-weight: 800;
         margin: 0;
         margin-top: 1.9vw;
         line-height: 2.3vw;
         font-size: 2.03vw;
-        font-family: "Marydale Regular";
     }
 }
 
 .paragraph {
     &__tiktok {
         position: absolute;
-        font-family: "Marydale Regular";
         transform: translate(-50%, -50%);
         top: 30.8vw;
         line-height: 3vw;
         left: 26.5vw;
         color: white;
+        font-size: 2.4vw;
+        word-spacing: 0.2vw;
+    }
+
+    &__phone {
+        position: absolute;
+        font-size: 1.64vw;
+        font-weight: 800;
+        padding: 0;
+        margin: 0;
+        top: 107.5vw;
+        left: 18%;
+        width: 13vw;
+        line-height: 2vw;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.trips {
+    &__container {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 56.5vw;
+        left: 22vw;
+        width: 34vw;
+        height: 14vw;
+        margin: 0;
+        padding: 0;
         font-size: 2.5vw;
+        font-weight: 800;
+    }
+
+    &__text {
+        position: absolute;
+        transform: translate(-50%, -50%);
+
+        &--number {
+            font-size: 6vw;
+            top: 43%;
+            left: 15%;
+            rotate: -57deg;
+        }
+
+        &--trips {
+            top: 37%;
+            left: 34%;
+            rotate: -28deg;
+        }
+
+        &--to {
+            top: 32%;
+            left: 45.7%;
+            rotate: -14deg;
+        }
+
+        &--moon {
+            font-size: 2.3vw;
+            top: 24%;
+            left: 59.5%;
+            rotate: -9deg;
+        }
+
+        &--and {
+            top: 21%;
+            left: 74%;
+            rotate: -9deg;
+        }
+
+        &--back {
+            top: 10.8%;
+            left: 89.8%;
+            rotate: -11deg;
+        }
+    }
+}
+
+.question__text {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-weight: 800;
+    top: 104.8vw;
+    left: 55.2%;
+    font-size: 5.35vw;
+}
+
+.power {
+    &__container {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 51.2%;
+        top: 96.3vw;
+        line-height: 2vw;
+        font-weight: 800;
+        width: 14vw;
+        font-size: 1.65vw;
+    }
+
+    &__paragraph {
+        display: inline-flex;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        align-items: flex-end;
+
+        &--devices {
+            margin-right: 2.2vw;
+        }
+
+        &--your {
+            margin-right: 3.4vw;
+        }
+    }
+}
+
+.reduce__paragraph {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 90%;
+    top: 104.7vw;
+    line-height: 2vw;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    font-weight: 800;
+    font-size: 1.68vw;
+    display: inline-flex;
+    width: 12vw;
+
+    &--screentime {
+        margin-left: 0.2vw;
+    }
+
+    &--use {
+        margin-left: 1.4vw;
+    }
+
+    &--more {
+        margin-left: 2.4vw;
+    }
+
+    &--outside {
+        margin-left: 3.2vw;
+    }
+
+    &--read {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-left: 3.75vw;
+    }
+}
+
+.delete__paragraph {
+    font-size: 1.68vw;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-weight: 800;
+    left: 51.8%;
+    top: 118.9vw;
+    line-height: 2vw;
+    width: 9.6vw;
+}
+
+.brightness__paragraph {
+    font-size: 1.68vw;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-weight: 800;
+    left: 90%;
+    line-height: 2vw;
+    top: 122.5vw;
+    width: 11vw;
+    display: flex;
+    flex-direction: column;
+
+    &--reduce {
+        margin-left: 3.5vw;
+    }
+
+    &--brightness {
+        margin-left: 2.75vw;
     }
 }
