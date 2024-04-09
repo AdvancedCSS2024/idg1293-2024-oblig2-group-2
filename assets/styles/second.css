@@ -268,4 +268,17 @@
 }
 .pollutionparticle__eyebrow {
   fill: #231F20;
+}
+
+.car__svg__group__body {
+  fill: #C77161;
+}
+.car__svg__group__outline .car__svg__group__window {
+  fill: #231F20;
+}
+.car__svg__groupwheel--front .car__svg__groupwheel--rear {
+  fill: #231F20;
+  stroke: #231F20;
+  stroke-width: 4.206;
+  stroke-miterlimit: 10;
 }/*# sourceMappingURL=second.css.map */

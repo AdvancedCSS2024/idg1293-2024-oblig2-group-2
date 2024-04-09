@@ -378,3 +378,25 @@
         fill: #231F20;
     }
 }
+
+.car__svg {
+    &__group {
+        &__body {
+            fill: #C77161;
+        }
+        &__outline
+        &__window {
+            fill: #231F20;
+        }
+        &wheel{
+            &--front
+            &--rear {
+                fill: #231F20;
+                stroke: #231F20;
+                stroke-width: 4.206;
+                stroke-miterlimit: 10;
+            }
+        }
+    }
+}
+
