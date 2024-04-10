@@ -1,0 +1,15 @@
+.people__container {
+  animation: peopleJumpAnimation 10s infinite;
+}
+
+@keyframes peopleJumpAnimation {
+  79% {
+    bottom: 14.7%;
+  }
+  81% {
+    bottom: 16%;
+  }
+  86% {
+    bottom: 14.7%;
+  }
+}/*# sourceMappingURL=peopleJumpAnimation.css.map */
