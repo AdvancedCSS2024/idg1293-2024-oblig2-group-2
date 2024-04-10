@@ -28,6 +28,8 @@ After that, we should make sure scalability works, then implement the animations
 
    Car: Left to right _(SMIL path animation)_ in wavy motion - rotating _(CSS keyframes)_
 
+   - Changed: used css keyframes instead and made it look like it was driving on its rear-wheels towards the moon, goes around the moon, then back to its start point. Makes more sense concidering the text.
+
    pollution:
 
    - Particles:

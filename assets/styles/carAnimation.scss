@@ -1,0 +1,66 @@
+.car__svg {
+    animation: 20s carAnimation infinite;
+}
+
+@keyframes carAnimation {
+    0% {
+        top: 33.2%;
+        left: 51%;
+        scale: 100%;
+        transform: translate(-50%, -50%) rotateY(0deg);
+    }
+
+    10% {
+        top: 31%;
+        rotate: 0deg;
+    }
+
+    17% {
+        top: 20%;
+        rotate: -40deg;
+    }
+
+    25% {
+        top: 23%;
+        rotate: 20deg;
+    }
+
+    55% {
+        top: 18.2%;
+        left: 80%;
+        scale: 60%;
+        rotate: 0deg;
+        transform: rotateY(0deg) rotate(0deg);
+    }
+
+    59% {
+        z-index: 1;
+    }
+
+    60% {
+        z-index: 2;
+    }
+
+    70% {
+        top: 18.2%;
+        left: 80%;
+        scale: 60%;
+        transform: rotateY(180deg) rotate(60deg);
+    }
+
+    80% {
+        scale: 110%;
+        z-index: 2;
+    }
+
+    90% {
+        transform: translate(-50%, -50%) rotateY(180deg) rotate(60deg);
+    }
+
+    100% {
+        top: 33.2%;
+        left: 51%;
+        scale: 100%;
+        transform: translate(-50%, -50%) rotateY(0deg) rotate(0deg);
+    }
+}
