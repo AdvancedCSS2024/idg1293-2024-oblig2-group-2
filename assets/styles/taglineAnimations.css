@@ -1,0 +1,12 @@
+.title__tagline {
+  animation: 4s ease-in-out taglineAnimation infinite;
+}
+
+@keyframes taglineAnimation {
+  33% {
+    scale: 108%;
+  }
+  67% {
+    scale: 92%;
+  }
+}/*# sourceMappingURL=taglineAnimations.css.map */

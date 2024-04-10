@@ -49,6 +49,7 @@ After that, we should make sure scalability works, then implement the animations
 
    - Color changing - becomming sick _(SMIL animate)_
    - Eyes moving _(SMIL animate)_
+     - Decides do make it "jump" instead
 
 3. Select classnames for elements to animate
 4. Download correct and simplify elements
