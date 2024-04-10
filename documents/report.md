@@ -1,22 +1,8 @@
 # Oblig 2, advanced CSS. IDG1293
 
+Group 2
+
 ## Starting
-
-First we decided on a poster.
-
-We then decided on which elements we should animate (the people having their arms move, the car moving in a wave motion, the stars shrinking and growing, the "pollution" clouds shrinking and growing again while moving up and down slightly.)
-
-What class name we should give the different elements.
-
-When we have done that, extract elements from the poster. Add those into the HTML as SVGs.
-
-Implement class names.
-
-And then style things in CSS (transfer the styling from HTML to CSS).
-
-After that, we should make sure scalability works, then implement the animations.
-
-## Process
 
 1. Decide poster
 2. Select elements and which animations:
@@ -181,3 +167,29 @@ right-person\_\_foot--right
 ## Working on the project
 
 While fixing the svg's we saw some issues and potential problems with the aproach we planned, so we had to adjust some things. Some of the classnames were changed to be more suitable. We also saw that more/other animations were relevant, so we included that in our tasks.
+
+## Report, Completing the project.
+
+### Animations: which and why.
+
+1. Text under headline
+   - Done with CSS keyframes, because it is a p element and css is a good tool for this.
+   - Wanted to animate it to make it more noticeable.
+2. Moon.
+   - Done with css. The moon is a css drawing, therefore doing it with css keyframes is suitable considering there is no svg
+3. Star.
+   - Done with animateTransform because it is a path inside an svg. The goal was to animate the large star, therefore using CSS to animate/affect the svg element/both stars is not suitable. Since they should act differently, using animateTransform allowed us to do that.
+4. Car.
+   - Used css keyframes. Wanted to move the whole svg element since it had been placed using absolute positioning. Css keyframes allows to modify both positioning, scale, rotateY and z-index, so its on the back-side of the moon one way, and in front the other way
+5. Person on the left.
+   - Moving arm, hand and mouth
+     - Using path animation. chose to use it since it allows for modifying the shape/location of points. Allows to modify the path.
+6. All the people
+   - Making them jump up using CSS keyframes. Used css keyframes since all of them were supposed to move at the same time and could therefore use keyframes to move the parent container using absolute positioning.
+7. Planet jumping:
+   - Used animateTransform to move the elements on the Y-axis. Not using absolute positioning, therefor not using keyframes, moving each of the elements inside the svg so they move in a syncronized manner.
+8. Particles:
+   - Used both css keyframes and animateTransform and animate.
+     1. Animate: Used for changing fill colors of some of the particles. Used animate instead of CSS keyframes so it can be done directly at the specific chosen elements.
+     2. animateTransform: used to scale a particle. the behaviour it provided was the one we wanted to achieve, therefor we chose to do it this way.
+     3. CSS keyframes. Used for transform(translateY, rotate, rotateX). Targeting the groups inside svg to affect them independently. Used CSS keyframes as it allowed to easily move the entire group.
