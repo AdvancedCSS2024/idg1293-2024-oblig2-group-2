@@ -1,0 +1,152 @@
+.particle-one {
+    animation: 8s infinite ParticleOneMove ease-in-out;
+    transform: translate(-50%, -50%);
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  
+  @keyframes ParticleOneMove {
+    0% {transform: translateY(0);}
+    25% {transform: translateY(40px) rotate(10deg);}
+    50% {transform: translateY(-40px) rotate(-20deg);}
+    75% {transform: translateY(40px) rotate(10deg);}
+    100% {transform: translateY(0px) rotate(-360deg);}
+  }
+  
+  .particle-two {
+    animation: 5s infinite ParticleTwoMove ease-in-out;
+    transform: translate(-50%, -50%);
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  
+  @keyframes ParticleTwoMove {
+    0% {transform: translateY(0);}
+    25% {transform: translateY(20px) rotate(20deg);}
+    50% {transform: translateY(-20px) rotate(-20deg);}
+    75% {transform: translateY(20px) rotate(10deg);}
+    100% {transform: translateY(0px) rotate(0deg);}
+  }
+  
+  .particle-three {
+    animation: 5s infinite ParticleThreeMove ease-in-out;
+    transform: translate(-50%, -50%);
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  
+  @keyframes ParticleThreeMove {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(20px);}
+    100% {transform: translateY(0px);}
+  }
+  
+  .particle-four {
+    animation: 3s infinite ParticleFourMove ease-in-out;
+    transform: translate(-50%, -50%);
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  
+  @keyframes ParticleFourMove {
+    0% {transform: translateY(-40px)}
+    50% {transform: translateY(20px) rotateX(360deg);}
+    100% {transform: translateY(-40px);}
+  }
+  
+  .particle-five {
+    animation: 9s infinite ParticleFiveMove ease-in-out;
+    transform: translate(-50%, -50%);
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  
+  @keyframes ParticleFiveMove {
+    0% {transform: translateY(-40px);}
+    50% {transform: translateY(20px);}
+    100% {transform: translateY(-40px);}
+  }
+  
+  .particle-six {
+    animation: 2s infinite ParticleSixMove ease-in-out;
+    transform: translate(-50%, -50%);
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  
+  @keyframes ParticleSixMove {
+    0% {transform: translateY(-40px) rotateX(10deg);}
+    50% {transform: translateY(60px) rotateX(60deg);}
+    100% {transform: translateY(-40px);}
+  }
+  
+  .particle-seven {
+    animation: 10s infinite ParticleSevenMove ease-in-out;
+    transform: translate(-50%, -50%);
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  
+  @keyframes ParticleSevenMove {
+    0% {transform: translateY(0);}
+    25% {transform: translateY(40px) rotate(20deg);}
+    50% {transform: translateY(-40px) rotate(-20deg);}
+    75% {transform: translateY(40px) rotate(30deg);}
+    100% {transform: translateY(0px);}
+  }
+  
+  .particle-eight {
+    animation: 10s infinite ParticleEightMove ease-in-out;
+    transform: translate(-50%, -50%);
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  
+  @keyframes ParticleEightMove {
+    0% {transform: translateY(0);}
+    25% {transform: translateY(40px) rotate(20deg);}
+    50% {transform: translateY(-40px) rotate(-20deg);}
+    75% {transform: translateY(40px) rotate(180deg);}
+    100% {transform: translateY(0px) rotate(-360deg);}
+  }
+  
+  .particle-nine {
+    animation: 4s infinite ParticleNineMove ease-in-out;
+    transform: translate(-50%, -50%);
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  
+  @keyframes ParticleNineMove {
+    0% {transform: rotate(20deg);}
+    50% {transform: rotate(-20deg);}
+    100% {transform: rotate(20deg);}
+  }
+  
+  .particle-ten {
+    animation: 4s infinite ParticleTenMove ease-in-out;
+    transform: translate(-50%, -50%);
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  
+  @keyframes ParticleTenMove {
+    0% {transform: translateY(0);}
+    25% {transform: translateY(40px) rotate(-20deg);}
+    50% {transform: translateY(-40px) rotate(20deg);}
+    75% {transform: translateY(40px) rotate(180deg) rotateY(180deg);}
+    100% {transform: translateY(0px) rotate(-360deg) rotateY(-360deg);}
+  }
+  
+  .particle-eleven {
+    animation: 4s infinite ParticleElevenMove ease-in-out;
+    transform: translate(-50%, -50%);
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  
+  @keyframes ParticleElevenMove {
+    0% {transform: translateY(20px) rotate(720deg);}
+    50% {transform: translateY(-20px)rotate(-720deg);}
+    100% {transform: translateY(20px)rotate(720deg);}
+  }
