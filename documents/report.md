@@ -20,15 +20,19 @@ After that, we should make sure scalability works, then implement the animations
 
 1. Decide poster
 2. Select elements and which animations:
-   Goal-list of animations we hope to achieve below. Not all have to be achieved. Ment as guide for what/how to animate and make sure all variations are used.
+   Goal-list of animations we hope to achieve below. Not all have to be achieved. Ment as guide/thoughts for what/how to animate and make sure all variations are used.
 
    Moon: Wobbling _(css keyframes)_, mouth moving _(SMIL transform)_
 
+   - Decides not to move mouth
+
    Stars: Rotating back and forths while shrinking/growing _(css keyframes)_
+
+   - Used svg animation instead.
 
    Car: Left to right _(SMIL path animation)_ in wavy motion - rotating _(CSS keyframes)_
 
-   - Changed: used css keyframes instead and made it look like it was driving on its rear-wheels towards the moon, goes around the moon, then back to its start point. Makes more sense concidering the text.
+   - Changed(car): used css keyframes instead and made it look like it was driving on its rear-wheels towards the moon, goes around the moon, then back to its start point. Makes more sense concidering the text.
 
    pollution:
 
@@ -44,12 +48,14 @@ After that, we should make sure scalability works, then implement the animations
 
    - Waving/moving with arms _(SMIL transform)_
    - Mouth moving _(SMIL transform)_
+     - added "bounce" css keyframe: so it reacts to earth jumping
 
    Earth:
 
    - Color changing - becomming sick _(SMIL animate)_
+     - Decided not to do this animation
    - Eyes moving _(SMIL animate)_
-     - Decides do make it "jump" instead
+     - Decided do make it "jump" instead
 
 3. Select classnames for elements to animate
 4. Download correct and simplify elements
