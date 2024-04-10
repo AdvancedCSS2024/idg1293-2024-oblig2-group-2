@@ -103,9 +103,10 @@
   width: 2.5vw;
   aspect-ratio: 1/1;
   left: 6.927vw;
-  top: 2.4vw;
+  top: 133.5vw;
   border-radius: 0.6vw;
   background-color: white;
+  z-index: 1;
 }
 .footer__ntnu--logo::after, .footer__ntnu--logo::before {
   position: absolute;
