@@ -319,7 +319,7 @@
 .earth__eye--right, .earth__eye--left {
   fill: #0A0203;
 }
-.earth__flare--right, .earth__flare--left {
+.earth__flare {
   fill: white;
 }
 .earth__continent--right, .earth__continent--center, .earth__continent--top, .earth__continent--left {
