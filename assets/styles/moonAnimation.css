@@ -1,0 +1,24 @@
+.moon__container {
+  animation: moonAnimation 10s ease-in-out infinite;
+}
+
+@keyframes moonAnimation {
+  0% {
+    scale: 100%;
+    rotate: -5deg;
+  }
+  25% {
+    rotate: 5deg;
+  }
+  50% {
+    scale: 80%;
+    rotate: -5deg;
+  }
+  75% {
+    rotate: 5deg;
+  }
+  100% {
+    scale: 100%;
+    rotate: -5deg;
+  }
+}/*# sourceMappingURL=moonAnimation.css.map */

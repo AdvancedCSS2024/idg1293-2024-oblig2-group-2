@@ -1,0 +1,10 @@
+.title__tagline {
+    animation: 4s ease-in-out taglineAnimation infinite;
+    transition: 0.3s;
+}
+
+@keyframes taglineAnimation {
+    50% {
+        scale: 92%;
+    }
+}
