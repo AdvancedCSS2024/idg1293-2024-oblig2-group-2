@@ -506,6 +506,30 @@
   left: 49%;
 }
 
+.particle__fill {
+  fill: #A1CF6D;
+}
+.particle__mouth {
+  fill: #0A0203;
+  stroke: #231F20;
+  stroke-miterlimit: 10;
+}
+.particle__eye {
+  fill: white;
+  stroke: #231F20;
+  stroke-width: 4.6017;
+  stroke-miterlimit: 10;
+}
+.particle__pupil {
+  fill: #A1CF6D;
+}
+.particle__outline, .particle__outline_2 {
+  fill: #231F20;
+}
+.particle__eyebrow {
+  fill: #231F20;
+}
+
 .earth__svg {
   width: 100%;
   z-index: 1;

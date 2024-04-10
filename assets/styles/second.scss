@@ -642,8 +642,38 @@
     transform: translate(-50%, -50%);
     top: 48.3%;
     left: 49%;
+}
+
+.particle {
+  
+    &__fill {
+        fill: #A1CF6D;
+    }
+    &__mouth {
+        fill: #0A0203;
+        stroke: #231F20;
+        stroke-miterlimit: 10;
+    }
+    &__eye {
+        fill: white;
+        stroke: #231F20;
+        stroke-width: 4.6017;
+        stroke-miterlimit: 10;
+    }
+    &__pupil {
+        fill: #A1CF6D;
+    }
+    &__outline,
+    &__outline_2 {
+        fill: #231F20;
+    }
+    &__eyebrow {
+        fill: #231F20;
+    }
 
 }
+
+
 
 .earth__svg {
     //position: absolute;
