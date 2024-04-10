@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/styles/style.css" />
+    <link rel="stylesheet" href="assets/styles/drawing.css" />
     <!--Font used for "institutt for design" in footer of poster-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -27,6 +28,54 @@
         alt="image of poster for reference"
         style="opacity: 0.2; width: 100%; position: absolute"
       />-->
+      <div class="moon__container">
+        <div class="moon__background--center moon__background"></div>
+        <div class="moon__background--right moon__background"></div>
+        <div class="moon__background--bottom moon__background"></div>
+        <div class="moon__background--left moon__background"></div>
+        <div class="moon__background--top moon__background"></div>
+        <div class="moon__background--extra moon__background"></div>
+
+        <div class="moon__body--center moon__body"></div>
+        <div class="moon__body--right moon__body"></div>
+        <div class="moon__body--bottom moon__body"></div>
+        <div class="moon__body--left moon__body"></div>
+        <div class="moon__body--top moon__body"></div>
+        <div class="moon__body--extra moon__body"></div>
+        <div class="moon__draw-eye moon__draw-eye--left"></div>
+        <div class="moon__draw-eye moon__draw-eye--left-two"></div>
+        <div class="moon__draw-eye moon__draw-eye--left-three"></div>
+        <div class="moon__draw-eye moon__draw-eye--left-four"></div>
+        <div class="moon__draw-eye moon__draw-eye--right"></div>
+        <div class="moon__draw-eye moon__draw-eye--right-two"></div>
+        <div class="moon__draw-eye moon__draw-eye--right-three"></div>
+        <div class="moon__draw-eye moon__draw-eye--right-four"></div>
+        <div class="moon__draw-flare moon__draw-flare--left"></div>
+        <div class="moon__draw-flare moon__draw-flare--left-two"></div>
+        <div class="moon__draw-flare moon__draw-flare--left-three"></div>
+        <div class="moon__draw-flare moon__draw-flare--left-four"></div>
+        <div class="moon__draw--mouth"></div>
+        <div class="moon__draw-crater--top moon__draw-crater"></div>
+        <div class="moon__draw-crater--left moon__draw-crater"></div>
+        <div class="moon__draw-crater--left-two moon__draw-crater"></div>
+        <div class="moon__draw-crater--left-three moon__draw-crater"></div>
+        <div class="moon__draw-crater--left-four moon__draw-crater"></div>
+        <div class="moon__draw-crater--bottom moon__draw-crater"></div>
+        <div class="moon__draw-crater--bottom-right moon__draw-crater"></div>
+        <div class="moon__draw-crater--right moon__draw-crater"></div>
+
+        <div class="moon__draw-flare moon__draw-flare--one"></div>
+        <div class="moon__draw-flare moon__draw-flare--two"></div>
+        <div class="moon__draw-flare moon__draw-flare--three"></div>
+        <div class="moon__draw-flare moon__draw-flare--four"></div>
+        <div class="moon__draw-flare moon__draw-flare--five"></div>
+        <div class="moon__draw-flare moon__draw-flare--six"></div>
+        <div class="moon__draw-flare moon__draw-flare--seven"></div>
+        <div class="moon__draw-flare moon__draw-flare--eight"></div>
+        <div class="moon__draw-flare moon__draw-flare--nine"></div>
+        <div class="moon__draw-flare moon__draw-flare--ten"></div>
+        <div class="moon__draw-flare moon__draw-flare--eleven"></div>
+      </div>
       <div class="background">
         <svg
           class="background__banner--svg"
@@ -75,7 +124,7 @@
               d="M603.152 858.976C602.053 848.149 609.988 838.568 607.418 827.567C607.271 826.937 607.296 826.561 607.962 826.3C613.12 824.282 612.086 819.469 612.865 815.466C623.279 767.751 636.168 718.528 626.173 669.387C623.211 653.462 632.914 635.996 626.468 621.582C607.853 578.839 608.765 554.814 558.184 537.288C557.145 537.521 556.726 536.918 556.507 536.045C467.223 507.323 417.564 576.921 388.798 650.767C384.571 663.392 383.964 676.581 382.792 689.684C381.689 703.885 375.265 717.755 380.215 732.369C367.066 779.041 370.038 828.263 366.143 876.45H596.956C597.572 873.625 598.298 870.807 599.228 868.008C600.295 864.798 603.514 862.534 603.152 858.976ZM578.927 687.337C521.543 711.35 431.916 601.868 489.812 571.51C499.283 567.805 508.587 563.637 517.808 559.335C583.882 534.826 630.557 649.659 578.927 687.337Z"
             ></path>
             <path
-              class="earth__flare earth__flare--right_2"
+              class="earth__flare earth__flare--left"
               d="M600.568 637.482C601.172 595.545 564.429 541.282 517.807 559.335C503.934 568.021 477.973 570.043 473.632 587.669C452.385 657.841 599.45 750.657 600.568 637.482Z"
             ></path>
             <path
@@ -792,84 +841,7 @@
       </svg>
 
       <div class="moon-stars__container">
-        <svg
-          class="moon__svg"
-          viewBox="0 0 506 461"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g class="moon__group" clip-path="url(#clip0_14_868)">
-            <path
-              class="moon__body"
-              d="M135.143 451.252C244.107 484.318 371.983 402.225 391.96 288.85C402.668 82.8265 87.1767 -8.201 13.9423 190.201C-26.9229 287.719 43.975 414.035 135.143 451.252Z"
-            ></path>
-            <path
-              class="moon__eye"
-              d="M103.203 157.128C43.607 156.193 34.0801 264.971 82.9272 284.044C163.227 308.729 172.727 165.054 103.203 157.128Z"
-            ></path>
-            <path
-              class="moon__eye--flare"
-              d="M100.981 275.127C1.30885 264.42 171.446 178.233 131.246 256.264C127.664 268.686 111.595 272.406 100.981 275.127Z"
-            ></path>
-            <path
-              class="moon__eye--flare_2"
-              d="M104.091 204.939C77.1641 199.794 76.3072 163.195 108.611 169.685C131.643 183.896 137.367 203.238 104.091 204.939Z"
-            ></path>
-            <path
-              class="moon__eye_2"
-              d="M266.975 136.742C184.769 130.085 175.343 288.152 269.451 270.509C331.655 267.981 320.139 151.749 266.975 136.742Z"
-            ></path>
-            <path
-              class="moon__eye--flare_3"
-              d="M249.556 261.767C226.158 261.767 218.452 234.605 224.868 229.112C243.569 212.486 266.987 200.708 291.412 211.299C291.412 211.299 296.868 213.167 296.868 219.546C296.868 244.269 291.324 261.767 249.556 261.767Z"
-            ></path>
-            <path
-              class="moon__eye--flare_4"
-              d="M270.103 148.718C309.174 169.024 255.988 186.375 242.507 167.613C236.808 162.501 238.431 152.266 245.42 149.884C253.734 147.05 264.522 146.455 270.103 148.718Z"
-            ></path>
-            <path
-              class="moon__mouth"
-              d="M222.774 310.39C235.615 308.02 247.542 300.963 255.787 290.836C256.639 289.79 256.811 288.323 255.787 287.3C254.908 286.42 253.109 286.248 252.252 287.3C244.478 296.849 233.554 303.334 221.445 305.569C220.116 305.814 219.363 307.423 219.699 308.644C220.082 310.04 221.442 310.636 222.774 310.39Z"
-            ></path>
-            <path
-              class="moon__crater--bottomright"
-              d="M298.962 375.481C288.911 407.816 229.069 415.656 228.172 386.066C230.122 368.923 253.155 348.903 272.499 346.898C288.812 346.561 304.748 359.29 298.962 375.481Z"
-            ></path>
-            <path
-              class="moon__crater--left"
-              d="M86.2144 339.734C84.6397 338.991 83.1763 338.647 81.8369 338.623C71.8891 315.137 34.9087 296.541 37.6235 336.537C41.2413 354.076 72.5068 395.945 87.2246 375.142C112.17 397.51 109.939 350.014 86.2144 339.734Z"
-            ></path>
-            <path
-              class="moon__crater--top"
-              d="M119.917 107.557C132.443 87.9343 174.622 89.9885 170.043 109.143C165.707 119.948 146.49 130.102 132.948 129.098C121.766 127.379 113.133 117.294 119.917 107.557Z"
-            ></path>
-            <path
-              class="moon__crater--bottomleft"
-              d="M126.475 433.437C133.647 440.067 150.417 443.394 159.068 441.765C168.303 439.228 168.065 429.568 158.202 422.932C138.862 411.87 111.336 420.333 126.475 433.437Z"
-            ></path>
-            <path
-              class="moon__crater--right"
-              d="M359.082 279.503C368.85 267.017 381.499 287.179 374.369 302.684C369.795 310.669 360.737 311.608 356.778 304.82C353.774 298.403 354.056 285.452 359.082 279.503Z"
-            ></path>
-          </g>
-          <defs>
-            <clipPath class="clip0_14_868">
-              <rect width="505.871" height="460.746" fill="white"></rect>
-            </clipPath>
-          </defs>
-        </svg>
         <div class="star__container">
-          <div class="star__drawing-container--large">
-            <span class="star__large--top star__part--large"></span>
-            <span class="star__large--top-two star__part--large"></span>
-            <span class="star__large--top-three star__part--large"></span>
-            <span class="star__large--center star__part--large"></span>
-            <span class="star__large--left star__part--large"></span>
-            <span class="star__large--left-two star__part--large"></span>
-            <span class="star__large--bottom star__part--large"></span>
-            <span class="star__large--bottom-right star__part--large"></span>
-            <span class="star__large--right star__part--large"></span>
-          </div>
           <svg
             class="stars__svg"
             viewBox="0 0 186 246"
@@ -921,6 +893,8 @@
         Unngå å bytte ut telefonen din ofte (det fører til mye e-avfall)
       </p>
       <p class="question__text">Hva kan du gjøre?</p>
+      <!--Having the logo outside footer tag so it can easily move around the entire page-->
+      <div class="footer__ntnu--logo"></div>
       <div class="footer">
         <div class="footer__white">
           <p class="footer__white--text">
@@ -939,7 +913,6 @@
         </div>
         <div class="footer__blue"></div>
         <div class="footer__ntnu">
-          <div class="footer__ntnu--logo"></div>
           <span class="footer__ntnu--split-line"></span>
           <p class="footer__ntnu--name">NTNU</p>
           <p class="footer__ntnu--definition">Institutt for design</p>
