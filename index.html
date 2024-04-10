@@ -3,17 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/styles/second.css" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <!--Font used for "institutt for design" in footer of poster-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <!--font for text used in original poster-->
+    <link
+      href="https://db.onlinewebfonts.com/c/48490262601f930faca20376350088c0?family=Marydale+Regular"
+      rel="stylesheet"
+      type="text/css"
+    />
     <title>IDG1293-2024 Oblig 2</title>
   </head>
-  <body>
-    <h1>for test purposes. to be removed</h1>
+
+  <body class="body">
     <main class="main">
-      <img
+      <!--<img
         src="assets/pdf/poster_pdf.png"
         alt="image of poster for reference"
         style="opacity: 0.2; width: 100%; position: absolute"
-      />
+      />-->
       <div class="background">
         <svg
           class="background__banner--svg"
@@ -89,6 +102,29 @@
           </defs>
         </svg>
       </div>
+      <div class="title__container">
+        <h1 class="title__headline">
+          Vær en
+          <br />
+          <span class="title__headline--green">miljø</span>detektiv
+        </h1>
+        <p class="title__tagline">
+          Se om du kan finne ut hvor stort <br />karbonfotavtrykk du har
+        </p>
+      </div>
+      <p class="paragraph__tiktok">
+        Hvis 1,1 billioner brukere bruker tiktok i <br />
+        fem minutter, tilsvarer det:
+      </p>
+      <p class="trips__container">
+        <span class="trips__text--number trips__text">74</span>
+        <span class="trips__text--trips trips__text"> turer</span>
+        <span class="trips__text--to trips__text"> til</span>
+        <span class="trips__text--moon trips__text"> månen</span>
+        <span class="trips__text--and trips__text"> og</span>
+        <span class="trips__text--back trips__text"> tilbake</span>
+      </p>
+      <img src="assets/img/QR.png" alt="QR code" class="QR__img" />
       <div class="people__container">
         <svg
           class="left-person__svg person__svg"
@@ -852,6 +888,76 @@
             </g>
           </svg>
         </div>
+      </div>
+      <div class="power__container">
+        <p class="power__paragraph">
+          <span class="power__paragraph--disconnect"
+            >Koble fra strømmen når du ikke bruker</span
+          >
+          <span class="power__paragraph--devices"> enhetene</span>
+          <span class="power__paragraph--your"> dine</span>
+        </p>
+      </div>
+      <div class="reduce__paragraph">
+        Reduser
+        <span class="reduce__paragraph--screentime">skjermtiden</span>
+        <span class="reduce__paragraph--use"> din og bruk</span>
+        <span class="reduce__paragraph--more"> heller mer</span>
+        <span class="reduce__paragraph--outside">tid ute.</span>
+        <span class="reduce__paragraph--read">
+          (les en <br />bok, gå <br />ut og <br />lek, <br />gå en tur)
+        </span>
+      </div>
+      <p class="delete__paragraph">
+        Slett unna<br />
+        e-poster du ikke trenger
+      </p>
+      <p class="brightness__paragraph">
+        <span class="brightness__paragraph--reduce">Reduser </span>
+        <span class="brightness__paragraph--brightness">lysstyrken </span>
+        <span class="brightness__paragraph--screen">på skjermen din</span>
+      </p>
+      <p class="paragraph__phone">
+        Unngå å bytte ut telefonen din ofte (det fører til mye e-avfall)
+      </p>
+      <p class="question__text">Hva kan du gjøre?</p>
+      <div class="footer">
+        <div class="footer__white">
+          <p class="footer__white--text">
+            TIKTOK 2.63 gco2e/minutt
+            <a
+              class="footer__white--url"
+              href="https://www.comparethemarket.com.au/energy/features/social-carbon-footprint-calculator/"
+              >https://www.comparethemarket.com.au/energy/features/social-carbon-footprint-calculator/</a
+            >
+            • Vi forutsetter at å kjøre en bil 1.6km (1 mile) genererer 404g
+            CO2<br />
+            En tur til månen: 96.5T CO2 (tur/retur: 193T CO2)1.1 aktive brukere
+            på TIKTOK i 5 min/dag = 148 til månen, eller 74 turer tur/retur. •
+            Avstand Jorden–månen: 384399.861 km
+          </p>
+        </div>
+        <div class="footer__blue"></div>
+        <div class="footer__ntnu">
+          <div class="footer__ntnu--logo"></div>
+          <span class="footer__ntnu--split-line"></span>
+          <p class="footer__ntnu--name">NTNU</p>
+          <p class="footer__ntnu--definition">Institutt for design</p>
+        </div>
+        <p class="footer__download">
+          <span class="footer__download--text"> Last ned plakat: </span>
+          <a
+            href="https://www.ntnu.no/web/design/digital-barekraft/illustrasjoner"
+            class="footer__download--url"
+            >https://www.ntnu.no/web/design/digital-barekraft/illustrasjoner</a
+          >
+        </p>
+        <p class="footer__contact">
+          <span class="footer__contact--name">Kontakt: </span>
+          <a href="mailto:carlos.vicient@ntnu.no" class="footer__contact--email"
+            >carlos.vicient@ntnu.no</a
+          >
+        </p>
       </div>
     </main>
     <!-- Your implementation of the poster goes here. -->
