@@ -310,4 +310,106 @@
   border: solid #231F20 0.35vw;
   background-color: #B4B6B7;
   border-radius: 70% 80% 70% 80%/80% 90% 50% 70%;
+}
+.moon__draw-flare {
+  background-color: white;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.moon__draw-flare--one {
+  width: 8.4%;
+  height: 10%;
+  rotate: 122deg;
+  top: 24.8%;
+  left: 16%;
+  border-radius: 70% 80% 80% 80%/60% 90% 80% 70%;
+}
+.moon__draw-flare--two {
+  width: 8.4%;
+  height: 8.5%;
+  top: 28.45%;
+  left: 25.8%;
+  transform: translate(-50%, -50%) skewX(7deg);
+  border-radius: 70% 50% 40% 80%/80% 70% 50% 70%;
+}
+.moon__draw-flare--three {
+  width: 7.2%;
+  height: 7%;
+  top: 31.2%;
+  left: 25.1%;
+  transform: translate(-50%, -50%);
+  rotate: 46deg;
+  border-radius: 60% 65% 70% 10%/70% 45% 70% 70%;
+}
+.moon__draw-flare--four {
+  width: 7.2%;
+  height: 7.1%;
+  top: 22.2%;
+  left: 64%;
+  transform: translate(-50%, -50%);
+  rotate: 3deg;
+  border-radius: 92% 39% 40% 100%/41% 10% 82% 76%;
+}
+.moon__draw-flare--five {
+  width: 9.8%;
+  height: 7.2%;
+  top: 22.9%;
+  left: 66.4%;
+  transform: translate(-50%, -50%);
+  rotate: 8deg;
+  border-radius: 52% 100% 100% 45%/92% 73% 77% 62%;
+}
+.moon__draw-flare--six {
+  width: 17.1%;
+  height: 12%;
+  top: 41.3%;
+  left: 66.4%;
+  rotate: -4deg;
+  transform: translate(-50%, -50%);
+  border-radius: 100% 40% 90% 55%/97% 83% 100% 82%;
+}
+.moon__draw-flare--seven {
+  width: 17.1%;
+  height: 12.7%;
+  top: 39.2%;
+  left: 66.2%;
+  rotate: -15deg;
+  transform: translate(-50%, -50%);
+  border-radius: 64% 40% 32% 46%/37% 29% 56% 69%;
+}
+.moon__draw-flare--eight {
+  width: 15%;
+  height: 12%;
+  top: 40%;
+  left: 67.7%;
+  rotate: -0.5deg;
+  transform: translate(-50%, -50%);
+  border-radius: 64% 58% 44% 46%/63% 26% 63% 28%;
+}
+.moon__draw-flare--nine {
+  width: 17.9%;
+  height: 9%;
+  top: 41.5%;
+  left: 27%;
+  rotate: -20deg;
+  transform: translate(-50%, -50%);
+  border-radius: 97% 50% 100% 75%/100% 73% 90% 92%;
+}
+.moon__draw-flare--ten {
+  width: 14.9%;
+  height: 8.5%;
+  top: 44.25%;
+  left: 27.6%;
+  rotate: -19deg;
+  transform: translate(-50%, -50%);
+  border-radius: 64% 58% 60% 56%/37% 26% 63% 79%;
+}
+.moon__draw-flare--eleven {
+  width: 14.9%;
+  height: 11%;
+  top: 38.5%;
+  left: 29.8%;
+  rotate: -35deg;
+  transform: translate(-50%, -50%);
+  border-radius: 16% 84% 59% 45%/57% 52% 51% 29%;
 }/*# sourceMappingURL=drawing.css.map */
